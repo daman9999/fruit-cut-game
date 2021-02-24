@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    background: radial-gradient(circle, #fff, #ccc);
+}
+
+.container {
+    height: 630px;
+    width: 750px;
+    background: rgb(123, 43, 199);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px rgb(30, 2, 75);
+    position: relative;
+}
+
+#score {
+    background-color: rgb(200, 240, 106);
+    color: darkgreen;
+    padding: 10px;
+    position: absolute;
+    left: 700px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 0px 1px rgb(32, 117, 5);
+    -moz-box-shadow: 1px 2px 0px 1px rgb(32, 117, 5);
+    -webkit-box-shadow: 1px 2px 0px 1px rgb(32, 117, 5);
+}
+
+#fruitcontainer {
+    width: 600px;
+    height: 450px;
+    background-color: #d8dfcd;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 0px 1px #3c4e1e;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(11, 41, 65);
+    position: relative;
+    overflow: hidden;
+}
+
+#instruction {
+    width: 400px;
+    height: 40px;
+    background-color: #d1e8e2;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 0px 1px #395a51;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    font-family: cursive;
+    color: rgb(55, 68, 78);
+}
+
+#startgame:hover {
+    background-color: rgb(19, 56, 179);
+    box-shadow: 0px 2px rgba(0, 0, 0, 2);
+    color: white;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+#startgame {
+    width: 80px;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0px 2px 0px 1px #404443;
+    -moz-box-shadow: 1px 2px 0px 1px #404443;
+    -webkit-box-shadow: 1px 2px 0px 1px #404443;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+#trial-left {
+    width: 80px;
+    padding: 6px;
+    position: absolute;
+    background-color: #3b9e48;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px 1px #2a3519;
+    border: 0.5px dotted;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+#gameOver {
+    height: 250px;
+    width: 500px;
+    background: linear-gradient(#BF3CA0, #F37063);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    z-index: 12;
+    display: none;
+}
+
+.life {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+    height: 150px;
+    width: 100px;
+}
